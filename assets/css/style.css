@@ -11,15 +11,12 @@
         background-repeat: no-repeat;
         height: 100%;
         width: 100%;
-        margin-top: 1%;
-        margin-bottom: 1%;
-        margin-right: 1%;
-        margin-left: 1%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
         
     }
-
-/* --------------------------------- Navbar */
-
 
 
 /* --------------------------------- Background Colors */
@@ -38,16 +35,13 @@
 background-color: #D3C0B2;
 }                   
 
-/* 
-.bg-card-footer-one {
-    background-color: red;
-} */
+
 /* ---------------------------------navbar */
 
 .nav-link {
     text-align: center;
     font-family: 'Dosis', sans-serif;   
-    color: ;
+    color: #69615B;
     font-size: 28px;
     font-weight: 500;
   
@@ -58,7 +52,7 @@ background-color: #D3C0B2;
     background: url("../images/profile.jpg");
     background-size: cover;
     background-repeat: no-repeat center center;
-    height: 250px;
+    height: 300px;
     width: 250px;
     flex-wrap: nowrap;
   
@@ -93,17 +87,17 @@ background-color: #D3C0B2;
 
 .name-title h2 {
     color: #69615B;
-    font-family: 'Dancing Script', cursive;
-    font-weight: 600;
-    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
     font-style: bold;
     
 }
 
 
 #navbar-toggler {
-    color: #69615B;
-    font-size: 12px;
+    color: #000;
+    font-size: 22px;
     font-style: bold;
     font-weight: 700;
     font-family: 'Dosis', sans-serif;
@@ -123,15 +117,8 @@ background-color: #D3C0B2;
     font-weight: 700;
     letter-spacing: 1px;
 
-} 
+}
 
-.body-about {
-    font-family: 'Dancing Script', cursive;
-    font-size: 32px;
-    color: #A99282;
-    font-weight: 600;
-
-} 
 
 /* ---------------------------------Body About */
 
@@ -188,7 +175,7 @@ padding-left: 5%;
 
 .card-1,
 .card-3 {
-    background-color: aliceblue;
+    background-color: #E0E4EF;
     width: 20rem;
     height: 20rem;
     align-content: center;
@@ -202,7 +189,7 @@ padding-left: 5%;
 }
 
 .card-2 {
-    background-color: aliceblue;
+    background-color: #E0E4EF;
     width: 20rem;
     height: 20rem;
     align-content: center;
@@ -216,19 +203,19 @@ padding-left: 5%;
 }
 
 .card-one h5 {
-color: #6B736B;
+color: #614D3C;
 text-align: center;
 
 }
 
 .card-two h5 {
-    color: #6B736B;
+    color: #614D3C;
     text-align: center;
     
 } 
 
 .card-three h5 {
-    color: #6B736B;
+    color: #614D3C;
     text-align: center;
         
 } 
@@ -237,8 +224,8 @@ text-align: center;
 .card-text {
     font-family: 'Dosis', sans-serif;
     font-size: 18px;
-    color: #69615B;
-    font-weight: 400;
+    color: #614D3C;
+    font-weight: 500;
     padding: 5px;
 
 }
@@ -247,24 +234,20 @@ text-align: center;
 /* ---------------------------------Footer */ 
 
 .main-footer { 
-    margin-top: 3%;
+    margin-top: 20px;
+    margin-right: 25px;
+    margin-left: 20px;
     border-style: solid;
-    border-width: 28px;
+    border-width: 24px;
     border-color: #857B74;  
-    align-content: center;
-    padding-left: 30px;
-    padding-right: 30px;  
+    padding-left: 60px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
     border-top-right-radius: 25%;
     border-bottom-left-radius: 25%;      
 
 }  
-
-
-.main-footer {
-    padding-top: 3%;
-    padding-bottom: 3%;
-
-}
 
 
 .main-footer-container {
@@ -272,57 +255,41 @@ text-align: center;
     width: 100%;
     justify-content: center;
     min-height: 120px;
-    line-height: 15px;
-    padding-top: 2%;
-    border-top-right-radius: 25%;
-    border-bottom-left-radius: 25%;      
-
-   
-}
-
-.main-footer-row {
-    display: flex;
-    flex-wrap: wrap;
-
+    line-height: 20px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+ 
 }
 
  
 .main-footer h4 {
-    font-size: 38px;
-    font-family: 'Dancing Script', cursive;   
-    font-weight: 800;  
+    font-size: 24px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;  
     font-style: bold; 
-    color: #69615B;
-    margin-bottom: 35px;
+    color: #707070;
+    margin-bottom: 5px;
     position: relative;
     
 } 
 
 
 .main-footer p {
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Dosis', sans-serif;
-    font-weight: 500;  
-    color: #69615B;
+    font-weight: 500; 
+    font-style: bold;
+    color: #4D4D4D;
     margin-bottom: 35px;
     position: relative;
     letter-spacing: 2px;
+    padding-bottom: 8px;
 }  
 
 
-.main-footer-col {
-    display: flex;
-    flex-wrap: nowrap;
-    column-gap: 2%;
-    column-width: 30%;
-    padding-left: 8%;
-    padding-right: 5%;
-
-}
-
-
 .cv-pdf i {
-    font-size: 26px;
+    font-size: 24px;
     color: #857B74 ;
     text-align: center;
     padding-left: 5px;
@@ -356,49 +323,8 @@ text-align: center;
 
 .social-link  i:hover {
     background: #A99282;
+
 } 
-
-
-/* 
----------------------------------Media Queries
-
-@media(min-width: 992px) {
-    .centre-form {
-        padding-top: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 50%;
-    }
-    
-} */
--------
-
-
-/*-------------------------------- Responsive Main Footer Section */
-
-
-@media(max-width: 767px){
-.main-footer-col {
-    width: 50%;
-    margin-bottom: 30px;
-
-}
-}
-
-@media(max-width: 574px){
-.main-footer-col {
-    width: 100%;
-    
-    }
-    }
-
-
-
-
-
-
-
-
 
 
 
